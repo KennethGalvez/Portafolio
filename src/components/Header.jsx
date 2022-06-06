@@ -1,5 +1,6 @@
 import React from 'react';
 import './consola.css';
+import Screen from './Screen.jsx';
 
 export default function Header (){
     return (
@@ -12,7 +13,9 @@ export default function Header (){
           </div>
           <div className='components'>
             <div className='screen'>
-              <div className='display'></div>
+              <div className='display'>
+                <Screen/>
+              </div>
             </div>
             <div className='controls'>
               <div className='inputs'>
